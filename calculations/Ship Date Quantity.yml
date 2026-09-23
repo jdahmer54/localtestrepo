@@ -1,0 +1,6 @@
+unique_name: Ship Date Quantity
+object_type: metric_calc
+label: Ship Date Quantity
+expression: |-
+  ([Measures].[quantity],
+   [Ship date].[Ship date Hierarchy].[All] )

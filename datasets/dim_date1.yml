@@ -1,0 +1,90 @@
+unique_name: dim_date1
+object_type: dataset
+label: dim_date1
+columns:
+  - name: date_key
+    data_type: int
+  - name: full_date
+    data_type: date
+  - name: day_name
+    data_type: string
+  - name: day_of_month
+    data_type: int
+  - name: day_of_year
+    data_type: int
+  - name: day_of_week_number
+    data_type: int
+  - name: day_name_of_week
+    data_type: string
+  - name: day_short_name_of_week
+    data_type: string
+  - name: is_weekday
+    data_type: boolean
+  - name: is_weekend
+    data_type: boolean
+  - name: calendar_year_month_key
+    data_type: string
+  - name: calendar_month_name
+    data_type: string
+  - name: calendar_month_short_name
+    data_type: string
+  - name: calendar_month_number_of_year
+    data_type: int
+  - name: calendar_month_sort
+    data_type: int
+  - name: calendar_year_quarter_key
+    data_type: string
+  - name: calendar_quarter_name
+    data_type: string
+  - name: calendar_quarter_number
+    data_type: int
+  - name: calendar_quarter_sort
+    data_type: int
+  - name: calendar_semester
+    data_type: int
+  - name: calendar_year
+    data_type: int
+  - name: fiscal_year_month_key
+    data_type: string
+  - name: fiscal_month_name
+    data_type: string
+  - name: fiscal_month_number_of_year
+    data_type: int
+  - name: fiscal_month_sort
+    data_type: int
+  - name: fiscal_year_quarter_key
+    data_type: string
+  - name: fiscal_quarter_name
+    data_type: string
+  - name: fiscal_quarter_number
+    data_type: int
+  - name: fiscal_quarter_sort
+    data_type: int
+  - name: fiscal_semester
+    data_type: int
+  - name: fiscal_year
+    data_type: int
+  - name: fiscal_year_start_date
+    data_type: date
+  - name: fiscal_year_end_date
+    data_type: date
+  - name: ad_shift_d
+    data_type: date
+  - name: ad_shift_week_ending
+    data_type: date
+  - name: ad_shift_week
+    data_type: int
+  - name: ad_shift_year
+    data_type: int
+  - name: is_last_day_of_month
+    data_type: boolean
+  - name: is_last_day_of_quarter
+    data_type: boolean
+  - name: is_last_day_of_calendar_year
+    data_type: boolean
+  - name: is_last_day_of_fiscal_quarter
+    data_type: boolean
+  - name: is_last_day_of_fiscal_year
+    data_type: boolean
+connection_id: con_jessedahmer_adventureworksdw
+table: dim_date1

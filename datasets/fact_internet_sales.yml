@@ -1,0 +1,54 @@
+unique_name: fact_internet_sales
+object_type: dataset
+label: fact_internet_sales
+columns:
+  - name: sales_order_line_key
+    data_type: long
+  - name: product_key
+    data_type: int
+  - name: order_date_key
+    data_type: int
+  - name: due_date_key
+    data_type: int
+  - name: ship_date_key
+    data_type: int
+  - name: customer_key
+    data_type: int
+  - name: promotion_key
+    data_type: int
+  - name: currency_key
+    data_type: int
+  - name: sales_territory_key
+    data_type: int
+  - name: sales_order_number
+    data_type: string
+  - name: sales_order_line_number
+    data_type: int
+  - name: revision_number
+    data_type: int
+  - name: order_quantity
+    data_type: int
+  - name: unit_price
+    data_type: decimal(19,4)
+  - name: extended_amount
+    data_type: decimal(19,4)
+  - name: unit_price_discount_pct
+    data_type: float
+  - name: discount_amount
+    data_type: float
+  - name: product_standard_cost
+    data_type: decimal(19,4)
+  - name: total_product_cost
+    data_type: decimal(19,4)
+  - name: sales_amount
+    data_type: decimal(19,4)
+  - name: tax_amt
+    data_type: decimal(19,4)
+  - name: freight
+    data_type: decimal(19,4)
+  - name: carrier_tracking_number
+    data_type: string
+  - name: customer_po_number
+    data_type: string
+connection_id: con_jessedahmer_adventureworksdw
+table: fact_internet_sales
