@@ -1,0 +1,6 @@
+unique_name: con_jessedahmer_adventureworksdw
+object_type: connection
+label: con_jessedahmer_adventureworksdw
+as_connection: Connection - Internet Sales
+database: jessedahmer
+schema: adventureworksdw

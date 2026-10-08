@@ -1,0 +1,46 @@
+unique_name: dim_date_jd
+object_type: dataset
+label: dim_date_jd
+columns:
+  - name: date_key
+    data_type: int
+  - name: date_day
+    data_type: date
+  - name: week_key
+    data_type: int
+  - name: week_label
+    data_type: string
+  - name: month_key
+    data_type: int
+  - name: month_label
+    data_type: string
+  - name: quarter_key
+    data_type: int
+  - name: quarter_label
+    data_type: string
+  - name: year_key
+    data_type: int
+  - name: year_label
+    data_type: string
+  - name: adshift_date_key
+    data_type: int
+  - name: adshift_date
+    data_type: date
+  - name: adshift_week_key
+    data_type: int
+  - name: adshift_week_label
+    data_type: string
+  - name: adshift_month_key
+    data_type: int
+  - name: adshift_month_label
+    data_type: string
+  - name: adshift_quarter_key
+    data_type: int
+  - name: adshift_quarter_label
+    data_type: string
+  - name: adshift_year_key
+    data_type: int
+  - name: adshift_year_label
+    data_type: string
+connection_id: con_jessedahmer_adventureworksdw
+table: dim_date_jd

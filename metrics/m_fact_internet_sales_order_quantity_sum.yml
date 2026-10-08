@@ -1,0 +1,6 @@
+unique_name: m_fact_internet_sales_order_quantity_sum
+object_type: metric
+label: Order Quantity
+calculation_method: sum
+column: order_quantity
+dataset: fact_internet_sales

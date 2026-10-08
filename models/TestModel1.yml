@@ -1,0 +1,27 @@
+unique_name: TestModel1
+object_type: model
+label: TestModel1
+metrics:
+  - unique_name: m_fact_internet_sales_order_quantity_sum
+    folder: Sales
+  - unique_name: m_fact_internet_sales_sales_amount_sum
+    folder: Sales
+relationships:
+  - unique_name: fact_internet_sales_order_date_key_to_date_day
+    from:
+      dataset: fact_internet_sales
+      join_columns:
+        - order_date_key
+    role_play: Order {0}
+    to:
+      dimension: date
+      level: day
+  - unique_name: fact_internet_sales_ship_date_key_to_date_day
+    from:
+      dataset: fact_internet_sales
+      join_columns:
+        - ship_date_key
+    role_play: Ship {0}
+    to:
+      dimension: date
+      level: day

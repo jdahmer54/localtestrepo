@@ -1,0 +1,46 @@
+unique_name: date
+object_type: dimension
+label: date
+hierarchies:
+  - unique_name: date Hierarchy
+    label: date Hierarchy
+    levels:
+      - unique_name: year
+      - unique_name: quarter
+      - unique_name: month_name
+      - unique_name: day
+level_attributes:
+  - unique_name: day
+    label: day
+    contains_unique_names: false
+    dataset: dim_date_jd
+    is_unique_key: true
+    key_columns:
+      - date_key
+    name_column: date_day
+    time_unit: day
+  - unique_name: year
+    label: Year
+    contains_unique_names: false
+    dataset: dim_date_jd
+    key_columns:
+      - year_key
+    name_column: year_key
+    time_unit: year
+  - unique_name: quarter
+    label: Quarter
+    contains_unique_names: false
+    dataset: dim_date_jd
+    key_columns:
+      - quarter_key
+    name_column: quarter_label
+    time_unit: quarter
+  - unique_name: month_name
+    label: Month Name
+    contains_unique_names: false
+    dataset: dim_date_jd
+    key_columns:
+      - month_key
+    name_column: month_label
+    time_unit: month
+type: time
